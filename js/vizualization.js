@@ -570,4 +570,269 @@
 
     }
 
-} ());
+    function getCsvData() {
+        return [
+            {
+                "code": "SEA",
+                "city": "SEATTLE",
+                "country": "USA",
+                "lat": 47.6062,
+                "lon": -122.3321,
+                "classname": "high-consumption",
+                "value": "29%",
+                "region": "North America"
+            },
+            {
+                "code": "BEI",
+                "city": "BEIJING",
+                "country": "China",
+                "lat": 39.9042,
+                "lon": 116.4074,
+                "classname": "high-consumption",
+                "value": "18%",
+                "region": "APAC"
+            },
+            {
+                "code": "DEL",
+                "city": "DELHI",
+                "country": "India",
+                "lat": 28.7041,
+                "lon": 77.1025,
+                "classname": "high-consumption",
+                "value": "6%",
+                "region": "APAC"
+            },
+            {
+                "code": "BER",
+                "city": "BERLIN",
+                "country": "Germany",
+                "lat": 52.52,
+                "lon": 13.405,
+                "classname": "high-consumption",
+                "value": "5%",
+                "region": "Europe"
+            },
+            {
+                "code": "PAR",
+                "city": "PARIS",
+                "country": "France",
+                "lat": 48.8566,
+                "lon": 2.3522,
+                "classname": "medium-consumption",
+                "value": "4%",
+                "region": "Europe"
+            },
+            {
+                "code": "LON",
+                "city": "LONDON",
+                "country": "United Kingdom",
+                "lat": 51.5074,
+                "lon": 0.1278,
+                "classname": "medium-consumption",
+                "value": "4%",
+                "region": "Europe"
+            },
+            {
+                "code": "MOS",
+                "city": "MOSCOW",
+                "country": "Russia",
+                "lat": 55.7558,
+                "lon": 37.6173,
+                "classname": "medium-consumption",
+                "value": "3%",
+                "region": "Europe"
+            },
+            {
+                "code": "JAK",
+                "city": "JAKARTA",
+                "country": "Indonesia",
+                "lat": 6.1745,
+                "lon": 106.8227,
+                "classname": "medium-consumption",
+                "value": "3%",
+                "region": "APAC"
+            },
+            {
+                "code": "IST",
+                "city": "ISTANBUL",
+                "country": "Turkey",
+                "lat": 41.0082,
+                "lon": 28.9784,
+                "classname": "medium-consumption",
+                "value": "2%",
+                "region": "Europe"
+            },
+            {
+                "code": "ROM",
+                "city": "ROME",
+                "country": "Italy",
+                "lat": 41.9028,
+                "lon": 12.4964,
+                "classname": "medium-consumption",
+                "value": "2%",
+                "region": "Europe"
+            },
+            {
+                "code": "BRA",
+                "city": "BRASILIA",
+                "country": "Brazil",
+                "lat": -15.7942,
+                "lon": -47.8822,
+                "classname": "medium-consumption",
+                "value": "2%",
+                "region": "LATAM"
+            },
+            {
+                "code": "OTT",
+                "city": "OTTAWA",
+                "country": "Canada",
+                "lat": 45.4215,
+                "lon": -75.6972,
+                "classname": "medium-consumption",
+                "value": "2%",
+                "region": "North America"
+            },
+            {
+                "code": "HAN",
+                "city": "HANOI",
+                "country": "Vietnam",
+                "lat": 21.0278,
+                "lon": 105.8342,
+                "classname": "medium-consumption",
+                "value": "2%",
+                "region": "APAC"
+            },
+            {
+                "code": "SEO",
+                "city": "SEOUL",
+                "country": "South Korea",
+                "lat": 37.5665,
+                "lon": 126.978,
+                "classname": "medium-consumption",
+                "value": "2%",
+                "region": "APAC"
+            },
+            {
+                "code": "TYO",
+                "city": "TOKYO",
+                "country": "Japan",
+                "lat": 35.6895,
+                "lon": 139.6917,
+                "classname": "medium-consumption",
+                "value": "2%",
+                "region": "APAC"
+            },
+            {
+                "code": "WSW",
+                "city": "WARSAW",
+                "country": "Poland",
+                "lat": 52.2297,
+                "lon": 21.0122,
+                "classname": "low-consumption",
+                "value": "1.30%",
+                "region": "Europe"
+            },
+            {
+                "code": "KIV",
+                "city": "KIEV",
+                "country": "Ukraine",
+                "lat": 50.4501,
+                "lon": 30.5234,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "Europe"
+            },
+            {
+                "code": "RID",
+                "city": "RIYADH",
+                "country": "Saudi Arabia",
+                "lat": 23.8859,
+                "lon": 45.0792,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "Middle East"
+            },
+            {
+                "code": "CAN",
+                "city": "CANBERRA",
+                "country": "Australia",
+                "lat": -35.2809,
+                "lon": 149.13,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "APAC"
+            },
+            {
+                "code": "MAD",
+                "city": "MADRID",
+                "country": "Spain",
+                "lat": 40.4168,
+                "lon": 3.7038,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "Europe"
+            },
+            {
+                "code": "KLR",
+                "city": "KUALA LUMPUR",
+                "country": "Malaysia",
+                "lat": 3.139,
+                "lon": 101.6869,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "APAC"
+            },
+            {
+                "code": "MEC",
+                "city": "MEXICO CITY",
+                "country": "Mexico",
+                "lat": 19.2465,
+                "lon": -99.1013,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "North America"
+            },
+            {
+                "code": "BKK",
+                "city": "BANGKOK",
+                "country": "Thailand",
+                "lat": 15.87,
+                "lon": 100.9925,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "APAC"
+            },
+            {
+                "code": "SIG",
+                "city": "SINGAPORE",
+                "country": "Singapore",
+                "lat": 1.3521,
+                "lon": 103.8198,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "APAC"
+            },
+            {
+                "code": "MAN",
+                "city": "MANILA",
+                "country": "Philippines",
+                "lat": 14.5995,
+                "lon": 120.9842,
+                "classname": "low-consumption",
+                "value": "1%",
+                "region": "APAC"
+            },
+            {
+                "code": "ADB",
+                "city": "ABU DHABI",
+                "country": "UAE",
+                "lat": 24.4539,
+                "lon": 54.3773,
+                "classname": "low-consumption",
+                "value": "0.50%",
+                "region": "Middle East"
+            }
+        ];
+    }
+
+}());
